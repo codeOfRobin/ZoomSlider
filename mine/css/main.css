@@ -1,0 +1,50 @@
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 40% 0 40%;
+}
+
+
+.slider
+{
+    display: flex;
+}
+.slide
+{
+    width: 244px;
+    height: 360px;
+    display:none;
+}
+.slide-current
+{
+    display: block;
+    margin: auto;
+}
+
+.slide-next
+{
+    
+}
+
+.slide-previous
+{
+
+}
+
+.slide-1
+{
+    background-image: url(../images/ipad.png);
+}
+.slide-2
+{
+    background-image: url(../images/imac.png);
+}
+.slide-3
+{
+    background-image: url(../images/iphone.png);
+}
+.slide-4
+{
+    background-image: url(../images/macbook.png);
+}
